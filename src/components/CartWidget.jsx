@@ -1,5 +1,5 @@
-import { BsCart } from "react-icons/bs";
-import { Badge } from "react-bootstrap";
+import { BsCart } from "react-icons/bs"
+import { Badge } from "react-bootstrap"
 
 function CartWidget({ cantidad }) {
   return (
@@ -17,4 +17,4 @@ function CartWidget({ cantidad }) {
   );
 }
 
-export default CartWidget;
+export default CartWidget

@@ -2,11 +2,11 @@ import NavBar from './components/NavBar'
 import { useState } from "react"
 import ItemListContainer from './components/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer'
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom"
 import './App.css'
 
 function App() {
-  const [cantidadEnCarrito, setCantidadEnCarrito] = useState(5);
+  const [cantidadEnCarrito, setCantidadEnCarrito] = useState(5)
   
   return (
     <>

@@ -29,4 +29,4 @@ const NavBar = ({ cantidadEnCarrito }) => {
     );
 };
 
-export default NavBar;
+export default NavBar
