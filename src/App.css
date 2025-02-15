@@ -1,0 +1,102 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+  .estiloContainer {
+    margin-top: 20px;
+  }
+
+  .estiloCards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding: 20px;
+    margin-left: 25px !important; 
+    margin-right: 25px !important;
+    text-align: center;
+  }
+
+
+  body {
+    background: linear-gradient(to right, #ffffff, #f8e1e1, #f9d6d6);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  /* Estilos para las cards */
+  .card {
+    width: 100%; 
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+  transform: scale(1.06);
+  }
+  
+  .card-img-top {
+    height: 350px; 
+    object-fit: cover; 
+  }
+  
+  .card-body {
+   flex: 1; 
+  }
+  
+  .mi-navbar {
+    display: flex;
+    background: linear-gradient(to right, #ffffff, #f8e1e1, #f9d6d6);
+    margin: 0px;
+  }
+  
+  
+  .navbar-nav {
+    width: 50%;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .buttonNavbar {
+    background-color: #f4d7d7; 
+    color: #333; 
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  .buttonNavbar:hover {
+    background-color: #f9e2e2; 
+  }
+  
+  
+ 
+  .navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+
+  
+  .navbar-nav .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+
+
+  .numeroBurbuja {
+    
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+  }
+  
+  .logoNavbar {
+    width: 80px;
+    object-fit: cover;
+    border-radius: 40px;
+  }
